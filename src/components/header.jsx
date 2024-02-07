@@ -1,9 +1,14 @@
-import Navi from './header_things/navi.jsx';
 
 function Header() {
     return(
         <header>
-            <Navi/>
+           <div className="navbar">
+                <p>Start</p>
+                <a href="#ococho">
+                    <p>O co chodzi?</p>
+                </a>                
+                <a href="#onas"><p>O nas</p></a>
+            </div>
         </header>
     )
 }
