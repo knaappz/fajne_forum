@@ -1,7 +1,5 @@
 // MainContent.jsx
 import React from "react";
-import ImageSlider from "./slider/img_slider";
-import { SliderData } from "./slider/slider_data";
 import CardImages from "./data/cards_img";
 
 export function MainContent() {
@@ -30,9 +28,9 @@ export function MainContent() {
         </div>
         <img src="/src/assets/womans.jpg" className="womanimg" alt="" />
       </main>
+      <section id="separator"></section>
 
       <section id="ococho">
-        <ImageSlider slides={SliderData} />
 
         <section className="gkfcolumn">
           {CardImages.map((image, index) => (
@@ -40,7 +38,7 @@ export function MainContent() {
             <div
               key={index}
               className="gkfcards"
-              style={{ backgroundImage: `url(${image})` }}
+              style={{ backgroundImage: `url(${image.url})` }}
             >
               <div className="cards-title">
                 <h3>{image.name}</h3>
@@ -52,9 +50,12 @@ export function MainContent() {
           ))}
         </section>
       </section>
+      <section id="separator"></section>
 
       <section id="onas">
-        <h1>O nas</h1>
+      <h1>O nas</h1>
+        <p> (pracuje solo)</p>
+        <div className="prawda"></div>
       </section>
     </>
   );
