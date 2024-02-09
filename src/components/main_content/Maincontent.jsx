@@ -40,7 +40,7 @@ export function MainContent() {
             <div
               key={index}
               className="gkfcards"
-              style={{ backgroundImage: `url(${image.logo})` }}
+              style={{ backgroundImage: `url(${image.url})` }}
             >
               <div className="cards-title">
                 <h3>{image.name}</h3>
