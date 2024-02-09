@@ -1,3 +1,4 @@
+
 footer {
     text-align: center;
     width: 100%;
@@ -8,13 +9,3 @@ footer {
     justify-content: space-around;
     color: white;
   }
-
-  /* footer li {
-    list-style: none;
-    margin: 0;
-    font-size: 1.4rem;
-    color: #fff;
-    font-family: 'Mina', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-  } */

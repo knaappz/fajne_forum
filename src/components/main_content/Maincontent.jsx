@@ -1,8 +1,7 @@
 // MainContent.jsx
 import React from "react";
-import CardImages from "../data/Cards_img";
+import CardImages from "../data/cards_img";
 import './maincontent.css';
-import './m-responsive.css';
 
 export function MainContent() {
   return (

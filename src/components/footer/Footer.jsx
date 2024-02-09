@@ -1,6 +1,4 @@
 import './footer.css';
-import './f-responsive.css';
-
 
 function Footer() {
     return (
