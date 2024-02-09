@@ -1,4 +1,5 @@
-import Header from "./header";
+import './footer.css';
+
 function Footer() {
     return (
       <footer>

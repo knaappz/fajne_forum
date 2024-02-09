@@ -1,6 +1,7 @@
 // MainContent.jsx
 import React from "react";
-import CardImages from "./data/cards_img";
+import CardImages from "../data/cards_img";
+import './maincontent.css';
 
 export function MainContent() {
   return (

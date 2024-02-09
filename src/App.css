@@ -23,233 +23,26 @@ a {
   text-decoration: none;
 }
 
-header {
-    margin: 0;
-    width: 100%;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-
-}
-
-.navbar {
-    min-width: 85%;
-    height: 70px;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    align-items: center;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    background-color: rgba(214, 230, 253, 1);
-    border: 0;
-
-}
-
-.navbar p {
-  margin: 0;
-  font-size: 1.4rem;
-  color: #313131;
-  font-family: 'Mina', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-main {
-  width: 85%;
-  height: 90vh;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-}
-
-.womanimg {
-  width: 50%;    
-}
-
-.card {
-  padding: 1.5rem;
-  width: 45%;
-  height: 45rem;
-    flex-shrink: 0;
-    border-radius: 2.5rem;
-    background: var(--orange);
-    color: white;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    border: .11rem solid black;
-}
-
-.card img {
-  width: 15rem;
-}
-
-.welcome {
-  margin: 0 auto;
-}
-
-.welcome h1 {
-  font-weight: bold;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-}
-
-.welcome p {
-  font-size: 1.2rem;
-  font-weight: 100;
-}
-
-
-.button-box {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-
-/* Image Slider */
-#ococho {
-  width: 85%;
-  height: 100vh;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-}
-
-.gkfcolumn {
-  width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.gkfcards {
-  width: 30%;
-  height: 100%;
-  min-width: 200px;
-  border-radius: 2rem;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
-.cards-title, .desc {
-  padding: .3rem;
-  width: 100%;
-  opacity: 0.9;
-  background-color: var(--lblue);
-  text-align: center;
-}
-
-.cards-title {
-  border-radius: 2rem 2rem  0 0;
-}
-.desc {
-  border-radius: 0 0 2rem 2rem;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.slider {
-    position: relative;
-    width: 70%;
-    margin-top: 2rem;
-    margin-bottom: 5rem;
-  }
-
-  .image-box {
-    overflow: hidden;
-    width: 100%;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 2rem;
-  }
-
-  .image-box img {
-    position: relative;
-    top: 100px;
-    width: 1200px;
-  }
-  
-  .right-arrow {
-    z-index: 2;
-    position: absolute;
-    top: 42%;
-    right: 20px;
-    font-size: 3rem;
-    color: #FFB547;
-    z-index: 10;
-    cursor: pointer;
-    user-select: none;
-  }
-  
-  .left-arrow {
-    position: absolute;
-    top: 42%;
-    left: 20px;
-    font-size: 3rem;
-    color: #FFB547;
-    z-index: 10;
-    cursor: pointer;
-    user-select: none;
-  }
-  
-  .slide {
-    opacity: 0;
-    transition-duration: 1s ease;
-  }
-  
-  .slide.active {
-    z-index: 1;
-    opacity: 1;
-    transition-duration: 0.5s;
-    transform: scale(1.01);
-  }
-
-  #onas {
-    width: 85%;
-    height: 40vh;
-    background-color: #dcdcdc;
-    border-radius: 4rem;
-    padding: 3rem;
-  }
-  
-  footer {
-    width: 100%;
-    height: 300px;
-    background-color: #313131;
-    margin-top: 10rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-  }
-
 
 @media (max-width: 1100px) {
   .welcome p {
     font-size: 1.08rem;
   }
+
+  .prawda {
+    background-size: 70%;
+  }
 }
 
 @media (max-width: 841px) {
-  .gkfcards {
-    width: unset;
+
+  footer li, h5{
+    font-size: 1rem;
   }
+
+  /* footer img {
+    width: 40%;
+  } */
 
   main {
     flex-direction: column-reverse;
@@ -282,6 +75,19 @@ main {
   }
 }
 
+@media (max-width: 745px) {
+  .gkfcolumn {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .gkfcards {
+    width: auto;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+}
+
 @media (max-width: 650px) {
   .navbar p{
     font-size: 1.2rem;
@@ -292,8 +98,15 @@ main {
   
 }
 
-@media (max-width:444px) {
-  .navbar p{
-    font-size: .9rem;
+@media (max-width:500px) {
+  footer li, h5{
+    font-size: .8rem;
+  }
+  .navbar li{
+    font-size: 1rem;
+  }
+
+  #onas {
+    margin-top: 700px;
   }
 }
