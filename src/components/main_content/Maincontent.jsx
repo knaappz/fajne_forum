@@ -9,7 +9,7 @@ export function MainContent() {
     <>
       <main>
         <div className="card">
-          <img src="https://cdn.discordapp.com/attachments/1026577216567521300/1205584245309837312/logo-fs.png?ex=65d8e6d2&is=65c671d2&hm=dae280017c65ac83739d7fc94ee13d0d2dccf33c15fcdbc955757df8da18feb5&" alt="" />
+          <img src="https://raw.githubusercontent.com/knaappz/fajne_forum/main/assets/logo-fs.png" alt="" />
           <div className="welcome">
             <h1>WITAJ!</h1>
             <p>
@@ -28,7 +28,7 @@ export function MainContent() {
             </button>
           </div>
         </div>
-        <img src="assets/womans.jpg" className="womanimg" alt="" />
+        <img src="https://img.freepik.com/darmowe-wektory/dwoch-przyjaciol-rozmawia-siedzi-i-korzysta-z-laptopa-dymek-krzeslo-plaski-ilustracja-komputer_74855-14185.jpg?w=1060&t=st=1707504653~exp=1707505253~hmac=f219e7ba2be8b33a1c62ad9e5236de836df775befeff91889da9947a17518211" className="womanimg" alt="" />
       </main>
       <section id="separator"></section>
 
