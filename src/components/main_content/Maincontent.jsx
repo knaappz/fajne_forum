@@ -9,7 +9,7 @@ export function MainContent() {
     <>
       <main>
         <div className="card">
-          <img src="assets/logo-fs.png" alt="" />
+          <img src="src/assets/logo-fs.png" alt="" />
           <div className="welcome">
             <h1>WITAJ!</h1>
             <p>
@@ -28,7 +28,7 @@ export function MainContent() {
             </button>
           </div>
         </div>
-        <img src="assets/womans.jpg" className="womanimg" alt="" />
+        <img src="src/assets/womans.jpg" className="womanimg" alt="" />
       </main>
       <section id="separator"></section>
 
