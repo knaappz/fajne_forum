@@ -6,7 +6,7 @@ import './m-responsive.css';
 
 export function MainContent() {
   return (
-    <>
+    <div id="landingpage">
       <main>
         <div className="card">
           <img src="https://raw.githubusercontent.com/knaappz/fajne_forum/main/assets/logo-fs.png" alt="" />
@@ -30,7 +30,6 @@ export function MainContent() {
         </div>
         <img src="https://img.freepik.com/darmowe-wektory/dwoch-przyjaciol-rozmawia-siedzi-i-korzysta-z-laptopa-dymek-krzeslo-plaski-ilustracja-komputer_74855-14185.jpg?w=1060&t=st=1707504653~exp=1707505253~hmac=f219e7ba2be8b33a1c62ad9e5236de836df775befeff91889da9947a17518211" className="womanimg" alt="" />
       </main>
-      <section id="separator"></section>
 
       <section id="ococho">
 
@@ -52,14 +51,13 @@ export function MainContent() {
           ))}
         </section>
       </section>
-      <section id="separator"></section>
 
       <section id="onas">
       <h1>O nas</h1>
         <p> (pracuje solo)</p>
         <div className="prawda"></div>
       </section>
-    </>
+    </div>
   );
 }
 

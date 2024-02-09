@@ -12,6 +12,7 @@
   @media (max-width: 841px) {
   
     main {
+      display: flex;
       flex-direction: column-reverse;
       justify-content: center;
     }
@@ -38,7 +39,7 @@
     }
   
     .womanimg {
-      width: 65%;
+      width: 45%;
     }
   }
   
@@ -50,7 +51,7 @@
   
     .gkfcards {
       width: auto;
-      height: 300px;
+      height: 200px;
       margin-bottom: 20px;
     }
   }
@@ -60,7 +61,7 @@
       font-size: 1.2rem;
     }
     .womanimg {
-      width: 85%;
+      width: 65%;
     }
     
   }
@@ -71,6 +72,11 @@
     }
   
     #onas {
-      margin-top: 700px;
+    }
+  }
+
+  @media (max-width: 230px) {
+    .gkfcolumn {
+      margin-top: 100px;
     }
   }

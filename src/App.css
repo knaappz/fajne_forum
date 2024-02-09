@@ -23,90 +23,10 @@ a {
   text-decoration: none;
 }
 
-
-@media (max-width: 1100px) {
-  .welcome p {
-    font-size: 1.08rem;
-  }
-
-  .prawda {
-    background-size: 70%;
-  }
+#landingpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
-@media (max-width: 841px) {
-
-  footer li, h5{
-    font-size: 1rem;
-  }
-
-  /* footer img {
-    width: 40%;
-  } */
-
-  main {
-    flex-direction: column-reverse;
-    justify-content: center;
-  }
-
-  .card {
-    width: 100%;
-    height: auto;
-  }
-
-  .card img {
-    width: 40%;
-  }
-
-  .welcome h1 {
-    font-size: 1.8rem;
-  }
-
-  .welcome p{
-    font-size: 1rem;
-  }
-
-  .card button {
-    margin-bottom: 20px;
-  }
-
-  .womanimg {
-    width: 65%;
-  }
-}
-
-@media (max-width: 745px) {
-  .gkfcolumn {
-    flex-direction: column;
-    height: auto;
-  }
-
-  .gkfcards {
-    width: auto;
-    height: 300px;
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 650px) {
-  .navbar p{
-    font-size: 1.2rem;
-  }
-  .womanimg {
-    width: 85%;
-  }
-  
-}
-
-@media (max-width:500px) {
-  footer li, h5{
-    font-size: .8rem;
-  }
-  .navbar li{
-    font-size: 1rem;
-  }
-
-  #onas {
-    margin-top: 700px;
-  }
-}
