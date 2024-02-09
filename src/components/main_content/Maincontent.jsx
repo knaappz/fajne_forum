@@ -1,13 +1,15 @@
 // MainContent.jsx
 import React from "react";
-import CardImages from "./data/cards_img";
+import CardImages from "../data/Cards_img";
+import './maincontent.css';
+import './m-responsive.css';
 
 export function MainContent() {
   return (
     <>
       <main>
         <div className="card">
-          <img src="src/assets/logo-fs.png" alt="" />
+          <img src="./src/assets/logo-fs.png" alt="" />
           <div className="welcome">
             <h1>WITAJ!</h1>
             <p>
@@ -26,7 +28,7 @@ export function MainContent() {
             </button>
           </div>
         </div>
-        <img src="/src/assets/womans.jpg" className="womanimg" alt="" />
+        <img src="./src/assets/womans.jpg" className="womanimg" alt="" />
       </main>
       <section id="separator"></section>
 

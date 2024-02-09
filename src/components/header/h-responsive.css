@@ -1,0 +1,37 @@
+
+@media (max-width: 1100px) {
+
+  }
+  
+  @media (max-width: 841px) {
+  
+  }
+  
+  @media (max-width: 745px) {
+    .gkfcolumn {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .gkfcards {
+      width: auto;
+      height: 300px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .navbar p{
+      font-size: 1.2rem;
+    }
+
+    
+  }
+  
+  @media (max-width:500px) {
+
+    .navbar li{
+      font-size: 1rem;
+    }
+
+  }

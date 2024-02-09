@@ -1,4 +1,7 @@
-import Header from "./header";
+import './footer.css';
+import './f-responsive.css';
+
+
 function Footer() {
     return (
       <footer>

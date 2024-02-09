@@ -1,3 +1,6 @@
+import './header.css';
+import './h-responsive.css';
+
 
 function Header() {
     return(
