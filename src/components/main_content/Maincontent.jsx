@@ -9,7 +9,7 @@ export function MainContent() {
     <>
       <main>
         <div className="card">
-          <img src="assets/logo-fs.png" alt="" />
+          <img src="https://cdn.discordapp.com/attachments/1026577216567521300/1205584245309837312/logo-fs.png?ex=65d8e6d2&is=65c671d2&hm=dae280017c65ac83739d7fc94ee13d0d2dccf33c15fcdbc955757df8da18feb5&" alt="" />
           <div className="welcome">
             <h1>WITAJ!</h1>
             <p>
