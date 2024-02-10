@@ -13,18 +13,19 @@ export function MainContent() {
           <div className="welcome">
             <h1>WITAJ!</h1>
             <p>
-              Lubisz dzielić się swoim zdaniem z innymi na temat gier, książek lub filmów? <br/>
-              Zatem dobrze trafiłeś!<br/>
-              Nasza strona pozwoli ci na wystawianie opini o najnowszych tytułach. 
-              
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
             </p>
           </div>
         
           <div className="button-box">
-            <a href="https://fajneforum.netlify.app/">
-              <button type="button" className="btn btn-light btn-lg">
+            <button type="button" className="btn btn-light btn-lg">
               Zacznij pisać
-            </button></a>
+            </button>
           </div>
         </div>
         <img src="https://img.freepik.com/darmowe-wektory/dwoch-przyjaciol-rozmawia-siedzi-i-korzysta-z-laptopa-dymek-krzeslo-plaski-ilustracja-komputer_74855-14185.jpg?w=1060&t=st=1707504653~exp=1707505253~hmac=f219e7ba2be8b33a1c62ad9e5236de836df775befeff91889da9947a17518211" className="womanimg" alt="" />
