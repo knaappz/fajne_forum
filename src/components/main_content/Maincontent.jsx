@@ -23,9 +23,10 @@ export function MainContent() {
           </div>
         
           <div className="button-box">
-            <button type="button" className="btn btn-light btn-lg">
+            <a href="https://fajneforum.netlify.app/">
+              <button type="button" className="btn btn-light btn-lg">
               Zacznij pisać
-            </button>
+            </button></a>
           </div>
         </div>
         <img src="https://img.freepik.com/darmowe-wektory/dwoch-przyjaciol-rozmawia-siedzi-i-korzysta-z-laptopa-dymek-krzeslo-plaski-ilustracja-komputer_74855-14185.jpg?w=1060&t=st=1707504653~exp=1707505253~hmac=f219e7ba2be8b33a1c62ad9e5236de836df775befeff91889da9947a17518211" className="womanimg" alt="" />
