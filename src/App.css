@@ -30,3 +30,9 @@ a {
   gap: 5rem;
 }
 
+@media (max-width:500px) {
+  #landingpage {
+    gap: 1rem;
+  }
+}
+

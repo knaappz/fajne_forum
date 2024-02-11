@@ -23,7 +23,7 @@
     }
   
     .card img {
-      width: 40%;
+      width: 50%;
     }
   
     .welcome h1 {
@@ -77,14 +77,20 @@
     footer li, h5{
       font-size: .8rem;
     }
-  
-    #onas {
+
+    main {
+      height: 45rem;
     }
+  
   }
 
   @media (max-width: 360px) {
     .card p {
       font-size: .7rem;
+    }
+    
+    .card {
+      height: 30rem;
     }
   }
 
