@@ -58,6 +58,9 @@ main {
     height: 100vh;
     display: flex;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
   }
   
   .gkfcolumn {
@@ -70,7 +73,7 @@ main {
   
   .gkfcards {
     width: 30%;
-    height: 20rem;
+    height: 25rem;
     border-radius: 2rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -82,9 +85,8 @@ main {
   }
   
   .cards-title, .desc {
-    padding: .3rem;
+    padding: .4rem;
     width: 100%;
-    opacity: 0.9;
     background-color: var(--lblue);
     text-align: center;
   }
@@ -108,9 +110,8 @@ main {
   
     #onas {
       width: 85%;
-      height: 100vh;
+      height: 70vh;
       border-radius: 4rem;
-      padding: 3rem;
     }
   
     .prawda{

@@ -41,13 +41,20 @@
     .womanimg {
       width: 80%;
     }
-  }
-  
-  @media (max-width: 745px) {
+
     .gkfcolumn {
       flex-direction: column;
       height: auto;
     }
+
+    .gkfcards {
+      width: auto;
+      height: 250px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 745px) {
   
     .gkfcards {
       width: auto;

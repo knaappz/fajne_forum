@@ -29,6 +29,7 @@ export function MainContent() {
         <img src="https://img.freepik.com/darmowe-wektory/dwoch-przyjaciol-rozmawia-siedzi-i-korzysta-z-laptopa-dymek-krzeslo-plaski-ilustracja-komputer_74855-14185.jpg?w=1060&t=st=1707504653~exp=1707505253~hmac=f219e7ba2be8b33a1c62ad9e5236de836df775befeff91889da9947a17518211" className="womanimg" alt="" />
       </main>
 
+
       <section id="ococho">
 
         <section className="gkfcolumn">

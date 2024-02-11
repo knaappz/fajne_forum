@@ -35,3 +35,9 @@
     }
 
   }
+
+@media (max-width: 300px) {
+  .navbar li{
+    font-size: 0.7rem;
+  }
+}
