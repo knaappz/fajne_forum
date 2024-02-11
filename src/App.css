@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
   --orange: #FFB547;
   --lblue: rgba(214, 230, 253, 1);
 }
@@ -28,5 +27,6 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  gap: 5rem;
 }
 

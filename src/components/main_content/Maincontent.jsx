@@ -6,7 +6,7 @@ import './m-responsive.css';
 
 export function MainContent() {
   return (
-    <>
+    <section id="landingpage">
       <main>
         <div className="card">
           <img src="https://raw.githubusercontent.com/knaappz/fajne_forum/main/assets/logo-fs.png" alt="" />
@@ -56,7 +56,7 @@ export function MainContent() {
         <p> (pracuje solo)</p>
         <div className="prawda"></div>
       </section>
-    </>
+    </section>
   );
 }
 
