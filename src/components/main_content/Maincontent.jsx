@@ -6,19 +6,16 @@ import './m-responsive.css';
 
 export function MainContent() {
   return (
-    <div id="landingpage">
+    <>
       <main>
         <div className="card">
           <img src="https://raw.githubusercontent.com/knaappz/fajne_forum/main/assets/logo-fs.png" alt="" />
           <div className="welcome">
             <h1>WITAJ!</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
+              Jesteś zaznajomniony z wieloma tytułami? <br/>
+              Zacznij dzielić się swoimi przemyśleniami, opinią na temat gier, książek czy filmów!
+              Nasze forum jest idealnym miejscem do tego!
             </p>
           </div>
         
@@ -58,7 +55,7 @@ export function MainContent() {
         <p> (pracuje solo)</p>
         <div className="prawda"></div>
       </section>
-    </div>
+    </>
   );
 }
 

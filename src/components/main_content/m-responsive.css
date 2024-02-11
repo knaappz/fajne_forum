@@ -9,7 +9,7 @@
     }
   }
   
-  @media (max-width: 841px) {
+@media (max-width: 841px) {
   
     main {
       display: flex;
@@ -39,7 +39,7 @@
     }
   
     .womanimg {
-      width: 45%;
+      width: 80%;
     }
   }
   
@@ -61,7 +61,7 @@
       font-size: 1.2rem;
     }
     .womanimg {
-      width: 65%;
+      width: 100%;
     }
     
   }
@@ -72,6 +72,12 @@
     }
   
     #onas {
+    }
+  }
+
+  @media (max-width: 360px) {
+    .card p {
+      font-size: .7rem;
     }
   }
 

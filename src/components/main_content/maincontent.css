@@ -14,7 +14,7 @@ main {
   .card {
     padding: 1.5rem;
     width: 45%;
-    height: 45rem;
+    height: 35rem;
     flex-shrink: 0;
     border-radius: 2.5rem;
     background: var(--orange);
@@ -36,7 +36,7 @@ main {
   .welcome h1 {
     font-weight: bold;
     margin-bottom: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   
   .welcome p {
