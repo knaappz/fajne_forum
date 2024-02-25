@@ -6,7 +6,7 @@ function Header() {
     return(
         <header>
            <div className="navbar">
-                <a href="https://fajneforum.netlify.app/">
+                <a href="https://fajneforum.netlify.app/home">
                 <li>Start</li>
                 </a> 
                 <a href="#ococho">
